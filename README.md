@@ -2,6 +2,8 @@
 
 WebSocket server for *swis*. It allows non-WebRTC capable browsers to use *swis*.
 
+The server opens a plain WebSocket server on 0.0.0.0:8088 (use a firewall to block direct access to it).
+
 
 ## Installation
 
@@ -21,3 +23,5 @@ $ npm install
 ```
 
 * Run `node index.js` or manage it as daemon with [forever](https://www.npmjs.com/package/forever).
+
+
